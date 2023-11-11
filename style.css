@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    max-width: 1920px;
+    margin: auto auto;
+    background-color: #374259;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/PA\ college.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.logo{
+    display: inline-block;
+}
+header {
+    max-width: 1920px;
+       margin: auto auto;
+       display: flex;
+       justify-content: space-between;
+       padding: 2%;
+       height: auto;
+       color: white;
+}
+
+.leftSection {
+    font-size: 2rem;
+
+}
+
+.leftSection .buttons {
+    padding: 10px 0;
+
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background:lightcoral;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.rightSection img{
+    height: 400px;
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.left{
+    height: 400px;
+    
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cardbody{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: rgb(1, 1, 1);
+    justify-content: center;
+    margin: 50px;
+    
+}
+.card{
+    width: 300px;
+    min-height: 100px;
+    background-color: white;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    padding: 10px;
+    border: 2px solid white;
+    color: black;
+}
+.card1{
+    width: 310px;
+    height: 200px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    margin-inline: 20px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    bottom: 0;
+    color: black;
+}
+.form{
+    background-color: rgba(0,0,0,0.5);
+    width: 310px;
+    height: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    background-color: gray;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+.footer {
+    display: flex;
+    padding: 34px 122px;
+    justify-content: space-evenly;
+}
+.box p{
+    width:200px;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    
+}
+
+.box:active h2 ~ p{
+    opacity: 1;
+    
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    color: antiquewhite;
+    background-color: gray;
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    cursor: pointer;
+}
+
+.btn1{
+    background: lightcoral;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.main-teacher {
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 4, 4);
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.teacher-card {
+    background-color: black;
+    max-width: min-content;
+    color: white;
+
+}
+
+.teacher-card img {
+    border-radius: 100%;
+
+}
+.head3{
+    margin: 20px;
+}
